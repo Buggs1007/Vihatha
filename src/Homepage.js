@@ -1,4 +1,5 @@
 import Slider from './Slider';
+import Cards from './cards';
 
 const Home= () => {
     
@@ -7,6 +8,7 @@ const Home= () => {
         <div classsname="home">
             
             <Slider />
+            <Cards />
         </div>
     )
 }
