@@ -9,7 +9,7 @@ import logo5 from './sliderImages/Interaction with Kids.jpg'
 const contentStyle = {
   margin: '150px 10px 100px 10px' , 
   height: '400px',
-  color: '#fff',
+  color: 'white',
   lineHeight: '160px',
   textAlign: 'center',
   background: '#364d79',
