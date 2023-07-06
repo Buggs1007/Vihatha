@@ -3,7 +3,7 @@ import Slider1 from './Slider1';
 import Cards from './cards';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Footer from './Footer';
+import Footer from './Footer';
 import Testimonials from './Testimonials';
 // import 'bootstrap/dist/js/bootstrap.bundle';
 
@@ -17,7 +17,7 @@ const Home= () => {
             <Slider1 />
             <Cards />
             <Testimonials />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

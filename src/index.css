@@ -1,3 +1,5 @@
+/*Cards*/
+
 .firstCard {
   background-color: rgb(173, 216, 245);
 }
@@ -10,6 +12,7 @@
   background-color: rgb(173, 216, 245);
 }
 
+/* read more buttons*/
 #more1 {
   display: none;
 }
@@ -24,6 +27,9 @@
   height: 720px; 
 }
 /* height of every image is constant right now, but need to find a fix. If height is allowed to vary, the size of the carousel keeps on changing according to the size of the image. */
+
+
+/*testimonials*/
 
 .carousel-root {
   width: 64% !important;
