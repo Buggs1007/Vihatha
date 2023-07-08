@@ -2,9 +2,9 @@ import { Card, Col, Row } from 'antd';
 import Button from 'react-bootstrap/Button';
 
 
-const rowStyle = {
-  margin: '200px 10px 200px 10px',
-};
+// const rowStyle = {
+//   margin: '200px 10px 200px 10px',
+// };
 const moreButton1= ()=>{
   var dots = document.getElementById("dots1");
   var moreText = document.getElementById("more1");
@@ -50,9 +50,11 @@ const moreButton3= ()=>{
     moreText.style.display = "inline";
   }
 }
+
 const Cards = () => (
-  
-  <Row gutter={16} style={rowStyle}>
+  <div className='cards'>
+  <h3 className='titleCards'>Approach</h3>;
+  <Row gutter={16} className='rowStyle'>
     <Col span={8}>
       <Card title="Education" bordered={false} className='firstCard'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque praesentium assumenda quibusdam voluptas accusamus nostrum consectetur voluptate repellat ut quisquam sapiente, aperiam quia eum! Dolorum explicabo repellendus sed maxime officiis?<span id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
@@ -72,5 +74,7 @@ const Cards = () => (
       </Card>
     </Col>
   </Row>
+  </div>
 );
+
 export default Cards;
