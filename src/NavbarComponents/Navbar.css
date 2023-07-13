@@ -45,7 +45,8 @@ li{
 
 
 
-@media (min-width: 699px){
+
+@media (min-width: 768px){
   .navbar-toggler{
     display: none !important;
     flex-basis: auto;
@@ -60,14 +61,26 @@ li{
 }
 
 
-@media (min-width: 700px){
+@media (min-width: 768px){
 .navbar-expand-lg .navbar-collapse {
     display: flex!important;
+    flex-direction: row;
     flex-basis: auto;
 }
 .random-2{
   display: inline-flex;
 }
+}
+
+@media (min-width:768px){
+ .mb-md-0{
+  display: flex!important;
+  flex-direction: row;
+ } 
+}
+
+.dropdown-menu.show {
+  display: inline;
 }
 
   
