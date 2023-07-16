@@ -33,6 +33,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 export default function Footer() {
   return (
+    <div className='Footerclass'>
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         {/* <div className='me-5 d-none d-lg-block'>
@@ -60,7 +61,7 @@ export default function Footer() {
           </a>
         </div> */}
       </section>
-
+      <div className='footer'>
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
@@ -99,7 +100,7 @@ export default function Footer() {
               </p> */}
             </MDBCol>
 
-            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               {/* <p>
                 <a href='#!' className='text-reset'>
@@ -123,7 +124,7 @@ export default function Footer() {
               </p>
             </MDBCol>
 
-            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon color='secondary' icon='home' className='me-2' />
@@ -143,7 +144,7 @@ export default function Footer() {
           </MDBRow>
         </MDBContainer>
       </section>
-
+      </div>
       {/* <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2021 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
@@ -151,6 +152,7 @@ export default function Footer() {
         </a>
       </div> */}
     </MDBFooter>
+    </div>
   );
 }
 

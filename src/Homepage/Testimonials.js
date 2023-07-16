@@ -17,7 +17,7 @@
 //         interval={6100}
 //       >
 //         <div>
-//           <img src={logo1} />
+//           <img src={logo2} />
 //           <div className="myCarousel">
 //             <h3>Shirley Fultz</h3>
 //             <h4>Designer</h4>
