@@ -57,7 +57,7 @@
     padding: 65px;          /*IF YOU CHANGE PADDING TEXT-BOX SIZE ALSO CHANGES*/
     margin-left: 15px;
     overflow: auto;
-    max-height: 310px;      /*ADJUST THIS HEIGHT TO MATCH HEIGHT OF BOX AND IMAGE */ 
+    max-height: 325px;      /*ADJUST THIS HEIGHT TO MATCH HEIGHT OF BOX AND IMAGE */ 
       
   }
   
