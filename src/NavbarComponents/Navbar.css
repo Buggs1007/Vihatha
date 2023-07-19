@@ -6,6 +6,9 @@ nav {
 .nav-item .nav-link{
   color: rgba(156, 146, 146, 0.984);
 }
+.nav-item .nav-link:active{
+  background-color: ;
+}
 
 li{
   justify-content: space-evenly;
@@ -27,6 +30,7 @@ li{
 
 .dropdown-item:active{
   color: rgba(156, 146, 146, 0.984);
+  background-color: rgba(243, 230, 230, 0.984);
 }
 
 .navbar-brand{
@@ -46,7 +50,7 @@ li{
 
 
 
-@media (min-width: 768px){
+@media (min-width: 700px){
   .navbar-toggler{
     display: none !important;
     flex-basis: auto;
@@ -61,7 +65,7 @@ li{
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 700px){
 .navbar-expand-lg .navbar-collapse {
     display: flex!important;
     flex-direction: row;
@@ -72,16 +76,47 @@ li{
 }
 }
 
-@media (min-width:768px){
+@media (min-width:700px){
  .mb-md-0{
   display: flex!important;
   flex-direction: row;
- } 
+ }
+
 }
+@media(max-width:475px){
+  li{
+    padding: 2px;
+  }
+}
+
 
 .dropdown-menu.show {
   display: inline;
 }
+
+@media(max-width:700px){
+  li{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media(min-width:700px ) and (max-width:800px){
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+}
+
+@media(min-width:700px) and (max-width:1440px){
+  .nav-item .nav-link{
+    padding: 10px;
+  }
+}
+
+
+
+
+
 
   
 

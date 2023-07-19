@@ -29,10 +29,10 @@ const NavBar = () => {
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle programs" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Programs
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu programs-dropdown">
               <li><a class="dropdown-item" href="#">Nature Immersion Program</a></li>
               <li><a class="dropdown-item" href="#">Well Being Boot Camp </a></li>
               <li><a class="dropdown-item" href="#">Medhaswi - Scholarship Program</a></li>
