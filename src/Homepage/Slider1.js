@@ -2,7 +2,7 @@ import logo1 from './sliderImages/1 A discussion on Gandhi _ Life Skills.jpeg'
 import logo2 from './sliderImages/Awareness about Biodiversity _ Farming.jpg'
 import logo3 from './sliderImages/Educational Conference - IIT Delhi.jpg'
 import logo4 from './sliderImages/Interaction with Govt Schools.jpg'
-import logo5 from './sliderImages/Interaction with Kids.jpg'
+import logo5 from './sliderImages/Farmers pride.png'
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -20,8 +20,8 @@ function Slider1() {
             
           />
           <Carousel.Caption className='caption'>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Transformative experiential learning programs</h3>
+            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className='slider2'>

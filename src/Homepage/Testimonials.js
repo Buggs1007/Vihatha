@@ -70,7 +70,7 @@ export default function Testimonials() {
     <MDBContainer className="py-5">
       <MDBRow className="d-flex justify-content-center">
         <MDBCol md="10" xl="8" className="text-center">
-          <h3 className="mb-4">Testimonials</h3>
+          <h3 className="testTitle"><strong>Testimonials</strong></h3>
           <p className="mb-4 pb-2 mb-md-5 pb-md-0">
                                                                
  

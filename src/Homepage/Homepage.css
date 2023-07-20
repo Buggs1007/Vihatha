@@ -114,12 +114,45 @@ h2.titleCards {
     width: 50%;
     height: 50%;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .footer.bg-light{
   background-color:#f1dfd3;
 }
+.text-center{
+  text-align: end;
+}
+/* footer1 */
+body {
+  font-family: tahoma;
+}
+.col-md-6.col-lg-3.mb-4.mb-md-0{
+  justify-content: right;
+}
+.row{
+  margin: 0px 0px 0px 0px;
+}
+/*testimonials*/
+.container.py-5 {
+  /* display: inline; */
+  align-items: center;
+  font-family: tahoma;
+  margin: 0px 0px 0px 0px;
+  justify-content: center;
+  text-align: center;
+  background-color: #f6f6f2;
+  display:inline;
 
+}
+.testTitle{
+    display: inline;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #badfe7;
+    color: black;
+}
 /* .carousel-root {
   width: 64% !important;
   margin: auto !important;
@@ -266,6 +299,7 @@ h2.titleCards {
 .slider {
   margin: auto;
   background-color:#f6f6f2;
+  padding-bottom: 20px;
 }
 .slider1 {
     margin: auto;
@@ -314,6 +348,9 @@ h2.titleCards {
         height: 480px;
  
     }
+    .vihathaimg{
+      width: 100%;
+    }
 }
 @media (max-width: 500px){
     .slider1{
@@ -329,6 +366,12 @@ h2.titleCards {
     .caption{
         font-size: 50%;
     }    
+    .vihathaimg{
+      width: 100%;
+    }
+    .rowStyle{
+      padding-right: 10px;
+    }
 }
 @media (max-width: 400px){
     .slider1{
@@ -344,11 +387,10 @@ h2.titleCards {
     .caption{
         font-size: 40%;
     }
+    .vihathaimg{
+      width: 100%;
+    }
 }
 
-.container.py-5{
-    background-color: #EAE7DC;
-}
-.bg-light.text-center.text-lg-start.text-muted{
-    background-color: #8e8d8a;
-}
+
+

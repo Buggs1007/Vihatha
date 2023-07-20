@@ -81,8 +81,8 @@ const Cards = () => (
         </Col>
         <Col span={8} >
           <Card title="Sustainability" bordered={false} className='cards123'>
-            <p>We intend to revive and co-create ecological wisdom and knowledge in the community through our sustainability programs. We are beginning with designing and developing kitchen gardens in homes, schools and communities. We will also conduct experiential workshops for all individuals to adopt sustainable living practices in daily life.
-            <span id="dots2">...</span><span id="more2">Later, we also intend to take-up the projects of Rural and Urban Development, especially Agriculture, plantation and Watershed programs, to create strong public opinion for environmental protection and harmony between nature and man.
+            <p>We intend to revive and co-create ecological wisdom and knowledge in the community through our sustainability programs. We are beginning with designing and developing kitchen gardens in homes, schools and communities. We will also conduct experiential workshops for all individuals to adopt sustainable living practices in daily life. Later, we also intend to take-up the projects of Rural and
+            <span id="dots2">...</span><span id="more2"> Urban Development, especially Agriculture, plantation and Watershed programs, to create strong public opinion for environmental protection and harmony between nature and man.
             We will also collaborate with like-minded NGOs for research, awareness programs and sustainable livelihoods.
 
 
