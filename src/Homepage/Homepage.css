@@ -63,9 +63,10 @@
     justify-content: center;
   }
   .cards123 {
-    width: 100vw;
+    width: 90vw;
     margin-bottom: 10px;
     justify-content: center;
+    
   }
 }
 
