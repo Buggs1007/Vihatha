@@ -33,13 +33,14 @@ const NavBar = () => {
               Programs
             </a>
             <ul class="dropdown-menu programs-dropdown">
-              <li><a class="dropdown-item" href="#">Nature Immersion Program</a></li>
-              <li><a class="dropdown-item" href="#">Well Being Boot Camp </a></li>
+              <li><a class="dropdown-item" href="#">Transformative experiential learning</a></li>
+              <li><a class="dropdown-item" href="#">Anubhav Bharat Yatra</a></li>
               <li><a class="dropdown-item" href="#">Medhaswi - Scholarship Program</a></li>
-              <li><a class="dropdown-item" href="#">Rural STEM program </a></li>
-              <li><a class="dropdown-item" href="#">Library & Activity Center</a></li>
-              <li><a class="dropdown-item" href="#">Govt school support program</a></li>
-              <li><a class="dropdown-item" href="#">Sustainability Projects</a></li>
+              <li><a class="dropdown-item" href="#">Internships and Exposure</a></li>
+              <li><a class="dropdown-item" href="#">Immersive Experiences in Nature</a></li>
+              <li><a class="dropdown-item" href="#">Research - Best Alternative Schools</a></li>
+              <li><a class="dropdown-item" href="#">Integrated kitchen Garden Project</a></li>
+              <li><a class="dropdown-item" href="#">Awareness on Food and Nutrition</a></li>
             </ul>
           </li>
           <li class="nav-item">

@@ -1,11 +1,12 @@
 nav {
-    box-shadow: 5px 1px 50px #33596bb6;
-    background-color: #33596bb6;
+    box-shadow: 5px 1px 50px #badfe7;
+    background-color: #badfe7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
 
 .nav-item .nav-link{
-  color: rgba(156, 146, 146, 0.984);
+  color: rgba(122, 109, 109, 0.984);
 }
 
 li{
@@ -20,12 +21,12 @@ li{
 
 .dropdown-item{
   padding: 2px;
+  color: rgba(122, 109, 109, 0.984);
   font-size: medium;
 }
 
 .nav-item:hover{
-  text-decoration: underline rgba(156, 146, 146, 0.984);
-  opacity: 80%;
+  opacity: 75%;
 }
 
 .nav-item::after{
@@ -33,8 +34,7 @@ li{
 }
 
 .dropdown-item:active{
-  color: rgba(156, 146, 146, 0.984);
-  background-color: rgba(243, 230, 230, 0.984);
+  background-color: #1e5a67;
 }
 
 .navbar-brand{
@@ -43,7 +43,10 @@ li{
 }
 
 .navbar-brand:hover{
-  color: rgba(156, 146, 146, 0.984);
+  color: rgba(122, 109, 109, 0.984);
+}
+.navbar-brand:after{
+  color: rgba(122, 109, 109, 0.984);
 }
 
 .random{
@@ -51,6 +54,9 @@ li{
   flex-direction: row;
 }
 
+.navbar-nav .dropdown-menu {
+  text-decoration: none;
+}
 
 
 
