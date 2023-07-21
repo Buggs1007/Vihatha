@@ -34,8 +34,8 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 export default function Footer() {
   return (
     <div className='Footerclass'>
-    <MDBFooter style={{backgroundColor:'#a1a1a1'}} className='text-center text-lg-start text-white'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+    <MDBFooter style={{backgroundColor:'#45637d'}} className='text-center text-lg-start text-white'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-3 border-bottom'>
         {/* <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
         </div> */}
@@ -66,17 +66,14 @@ export default function Footer() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon color='secondary' icon='gem' className='me-3' />
-                Company name
+              <h6 className='text-uppercase fw-bold mb-4'>VIHATHA FOUNDATION
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit.
+                Vihatha provides transformational experimental learning programs for academic, technical and personal needs of learners.
               </p>
             </MDBCol>
 
-            <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
+            {/* <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'> */}
               {/* <h6 className='text-uppercase fw-bold mb-4'>Products</h6> 
                <p>
                 <a href='#!' className='text-reset'>
@@ -98,7 +95,7 @@ export default function Footer() {
                   Laravel
                 </a>
               </p> */}
-            </MDBCol>
+            {/* </MDBCol> */}
 
             <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
@@ -114,12 +111,12 @@ export default function Footer() {
               </p> */}
               <p>
                 <a href='#!' className='text-reset'>
-                  Orders
+                  Blogs
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Help
+                  Support us
                 </a>
               </p>
             </MDBCol>
@@ -127,15 +124,13 @@ export default function Footer() {
             <MDBCol md='4' lg='4' xl='3' className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
-                <MDBIcon color='secondary' icon='home' className='me-2' />
-                New York, NY 10012, US, ADDRESS
+                A -130, Nature City, Uslapur, Bilaspur, 495001, Chhattisgarh.
               </p>
               <p>
-                <MDBIcon color='secondary' icon='envelope' className='me-3' />
-                info@example.com
+ 
+                rovinpushp@gmail.com
               </p>
-              <p>
-                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 01 234 567 88
+              <p>+91 8448878770
               </p>
               {/* <p>
                 <MDBIcon color='secondary' icon='print' className='me-3' /> + 01 234 567 89

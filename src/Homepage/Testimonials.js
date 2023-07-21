@@ -1,204 +1,52 @@
-// import React, { Component } from "react";
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import { Carousel } from 'react-responsive-carousel';
-// import logo1 from './sliderImages/1 A discussion on Gandhi _ Life Skills.jpeg'
-// import logo2 from './sliderImages/Awareness about Biodiversity _ Farming.jpg'
-// import logo3 from './sliderImages/Educational Conference - IIT Delhi.jpg'
+import React,{Component} from 'react';  
+import $ from 'jquery';
+import OwlCarousel from 'react-owl-carousel';  
+import 'owl.carousel/dist/assets/owl.carousel.css';  
+import 'owl.carousel/dist/assets/owl.theme.default.css';  
 
-// export default class Testimonials extends Component {
-//   render() {
-//     return (
-//       <Carousel
-//         showArrows={true}
-//         infiniteLoop={true}
-//         showThumbs={false}
-//         showStatus={false}
-//         autoPlay={true}
-//         interval={6100}
-//       >
-//         <div>
-//           <img src={logo2} />
-//           <div className="myCarousel">
-//             <h3>Shirley Fultz</h3>
-//             <h4>Designer</h4>
-//             <p>
-//               It's freeing to be able to catch up on customized news and not be
-//               distracted by a social media element on the same site
-//             </p>
-//           </div>
-//         </div>
-
-//         <div>
-//           <img src={logo1} />
-//           <div className="myCarousel">
-//             <h3>Daniel Keystone</h3>
-//             <h4>Designer</h4>
-//             <p>
-//               The simple and intuitive design makes it easy for me use. I highly
-//               recommend Fetch to my peers.
-//             </p>
-//           </div>
-//         </div>
-
-//         <div>
-//           <img src={logo1} />
-//           <div className="myCarousel">
-//             <h3>Theo Sorel</h3>
-//             <h4>Designer</h4>
-//             <p>
-//               I enjoy catching up with Fetch on my laptop, or on my phone when
-//               I'm on the go!
-//             </p>
-//           </div>
-//         </div>
-//       </Carousel>
-//     );
-//   }
-// }
-
-import React from "react";
-import {
-  MDBCol,
-  MDBContainer,
-  MDBIcon,
-  MDBRow,
-  MDBTypography,
-} from "mdb-react-ui-kit";
-
-export default function Testimonials() {
-  return (
-    <MDBContainer className="py-5">
-      <MDBRow className="d-flex justify-content-center">
-        <MDBCol md="10" xl="8" className="text-center">
-          <h3 className="testTitle"><strong>Testimonials</strong></h3>
-          <p className="mb-4 pb-2 mb-md-5 pb-md-0">
-                                                               
+//Initialize Plugin
+// $(".owl-carousel").owlCarousel()
  
- 
- 
-          </p>
-        </MDBCol>
-      </MDBRow>
-      <MDBRow className="text-center">
-        <MDBCol md="4" className="mb-5 mb-md-0">
-          <div className="d-flex justify-content-center mb-4">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-              className="rounded-circle shadow-1-strong"
-              width="150"
-              height="150"
-            />
-          </div>
-          <h5 className="mb-3">Maria Smantha</h5>
-          <h6 className="text-primary mb-3">Web Developer</h6>
-          <p className="px-xl-3">
-            <MDBIcon fas icon="quote-left" className="pe-2" />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
-            id officiis hic tenetur quae quaerat ad velit ab hic tenetur.
-          </p>
-          <MDBTypography
-            listUnStyled
-            className="d-flex justify-content-center mb-0"
-          >
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon
-                fas
-                icon="star-half-alt"
-                size="sm"
-                className="text-warning"
-              />
-            </li>
-          </MDBTypography>
-        </MDBCol>
-        <MDBCol md="4" className="mb-5 mb-md-0">
-          <div className="d-flex justify-content-center mb-4">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-              className="rounded-circle shadow-1-strong"
-              width="150"
-              height="150"
-            />
-          </div>
-          <h5 className="mb-3">Lisa Cudrow</h5>
-          <h6 className="text-primary mb-3">Graphic Designer</h6>
-          <p className="px-xl-3">
-            <MDBIcon fas icon="quote-left" className="pe-2" />
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-            suscipit laboriosam, nisi ut aliquid commodi.
-          </p>
-          <MDBTypography
-            listUnStyled
-            className="d-flex justify-content-center mb-0"
-          >
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-          </MDBTypography>
-        </MDBCol>
-        <MDBCol md="4" className="mb-5 mb-md-0">
-          <div className="d-flex justify-content-center mb-4">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
-              className="rounded-circle shadow-1-strong"
-              width="150"
-              height="150"
-            />
-          </div>
-          <h5 className="mb-3">John Smith</h5>
-          <h6 className="text-primary mb-3">Marketing Specialist</h6>
-          <p className="px-xl-3">
-            <MDBIcon fas icon="quote-left" className="pe-2" />
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti.
-          </p>
-          <MDBTypography
-            listUnStyled
-            className="d-flex justify-content-center mb-0"
-          >
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon fas icon="star" size="sm" className="text-warning" />
-            </li>
-            <li>
-              <MDBIcon far icon="star" size="sm" className="text-warning" />
-            </li>
-          </MDBTypography>
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
-  );
-}
 
+export class Testimonials extends Component {  
+        render()  
+        {  
+          return (  
+            <div className='testimonials'>  
+          <div class='container-fluid' >      
+           <div className="row title" style={{marginBottom: "20px"}} >      
+           <div class="col-sm-12 btn btn-info">      
+           <h2 className='testTitle'><strong>Testimonials</strong></h2>   
+           </div>      
+           </div>  
+       </div>  
+       <div class='container-fluid' >            
+        <OwlCarousel items={2}  autoplay = {true} 
+          className="owl-theme"  
+          loop  
+          nav  
+          margin= {8}>  
+           <div className='test'>
+            {/* <div className='img1'><img  className="img" src= {logo1}/></div> */}
+            <p className='testContent'>I participated in an internship designed and facilitated by Rovin in Vrindavan. During my time in Vrindavan, I was involved in initiatives to promote an inspiring education for students in rural areas. Teaching science through fun experiments and connecting with the locals opened my eyes to the resilience, simplicity, and warmth of the people living in rural areas. The gratitude and smiles I received from the students and their parents were far more rewarding than anything I had experienced.  Vrindavan has a unique and vibrant energy that captivated me from the beginning. Whether working in schools, exploring bustling temples, or residing in ashram, the whole experience left an indelible mark on my heart and changed me for the better. <br /> <br /> -Tanya Nagpal, PHD Student, IIT Delhi </p>
+           </div>  
+           <div className='test'>
+            {/* <img  className="img" src= {logo1}/> */}
+            <p className='testContent'>Working with Rovin sir was one of the most valuable and amazing experiences. We worked with students from many villages. Going from school to school and teaching relentlessly, I learnt a lot from him in a short period of time. It was an immersive trip which taught me about pedagogy, the importance of creative thinking, storytelling and games in curriculum. <br /> <br />  -Pratishtha, PHD Student, IIT Delhi </p>
+            </div>  
+            <div className='test'>
+            {/* <img  className="img" src= {logo1}/> */}
+            <p className='testContent'>My interaction with Vihatha opened new dimension of Knowledge and experience for me. I enhanced my public speaking and critical thinking skills. I have gained much knowledge regarding the nutrition and how the traditional ancient Indians approached it. That time I spent with Vihatha exposed me to a lot of useful indegeninous ideas and practices as well. <br /><br /> -Chandra Piyush Bajpai, Student, Delhi University</p>
+            </div>  
+            <div className='test'>
+            <p className='testContent'>I really love to interact with Vihatha’s team. The content and experience is really transformative and rewarding. I always feel welcome in their nurturing learning environment. Interactions with the facilitators helped me to understand the basics of critical thinking, public speaking and leadership. Career counseling sessions with them made me more aware of the undergraduate colleges in India. They always encourage you to apply the insights from discussions in real life scenarios- making the learning experience all the more relevant and impactful. <br /><br /> -Sahil Shamnani</p>
+            </div>
+      </OwlCarousel>  
+      </div>  
+  
+      </div>  
+          )  
+        }  
+      }  
+export default Testimonials
 

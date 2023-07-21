@@ -73,7 +73,7 @@ const Cards = () => (
       <Row gutter={16} className='rowStyle'> 
         <Col span={8}>
           <Card title="Education" bordered={false} className='cards123'>
-            <p>Vihatha acknowledges the need to establish, maintain, preserve and support integral, holistic and experiential education. Vihatha acts as a catalyst in education through interventions like SELP which provides transformative experiential learning to the students. They remember the exposure, activities and discussions for a long period of time and the impression or key learnings are utilized by them in real life. <span id="dots1">...</span><span id="more1"> We also engage in research and teacher training to promote integral and holistic education in schools. Recently, we have conducted visits to the best alternative schools of the country to understand and document their vision, philosophy, management, curriculum, academic calendar, mentoring and feedback systems.
+            <p className='cardsContent'>Vihatha acknowledges the need to establish, maintain, preserve and support integral, holistic and experiential education. Vihatha acts as a catalyst in education through interventions like SELP which provides transformative experiential learning to the students. They remember the exposure, activities and discussions for a long period of time and the impression or key learnings are utilized <span id="dots1">...</span><span id="more1">  by them in real life.  We also engage in research and teacher training to promote integral and holistic education in schools. Recently, we have conducted visits to the best alternative schools of the country to understand and document their vision, philosophy, management, curriculum, academic calendar, mentoring and feedback systems.
             </span></p>
             <Button variant="outline-light" onClick={moreButton1} id="myBtn1">Read more</Button>
           </Card>
@@ -81,7 +81,7 @@ const Cards = () => (
         </Col>
         <Col span={8} >
           <Card title="Sustainability" bordered={false} className='cards123'>
-            <p>We intend to revive and co-create ecological wisdom and knowledge in the community through our sustainability programs. We are beginning with designing and developing kitchen gardens in homes, schools and communities. We will also conduct experiential workshops for all individuals to adopt sustainable living practices in daily life. Later, we also intend to take-up the projects of Rural and
+            <p className='cardsContent'>We intend to revive and co-create ecological wisdom and knowledge in the community through our sustainability programs. We are beginning with designing and developing kitchen gardens in homes, schools and communities. We will also conduct experiential workshops for all individuals to adopt sustainable living practices in daily life. Later, we also intend to take-up the projects of Rural and
             <span id="dots2">...</span><span id="more2"> Urban Development, especially Agriculture, plantation and Watershed programs, to create strong public opinion for environmental protection and harmony between nature and man.
             We will also collaborate with like-minded NGOs for research, awareness programs and sustainable livelihoods.
 
@@ -92,7 +92,7 @@ const Cards = () => (
         </Col>
         <Col span={8} >
           <Card title="Well-Being" bordered={false} className='cards123'>
-            <p>We have chosen to work in this domain after deep contemplation and discussion with experts. We feel that learning and sustainability can not be achieved if our community suffers emotionally. We intend to collaborate with experts, parents and teachers to evolve a shared understanding on this topic. We will be conducting small scale workshops with parents and teachers for this purpose.
+            <p className='cardsContent'>We have chosen to work in this domain after deep contemplation and discussion with experts. We feel that learning and sustainability can not be achieved if our community suffers emotionally. We intend to collaborate with experts, parents and teachers to evolve a shared understanding on this topic. We will be conducting small scale workshops with parents and teachers for this purpose.
  
             <span id="dots3">...</span><span id="more3"> For students - we have designed simple experiential learning programs for children, youth and teenagers to help them understand their moods, emotions, energies and thoughts in a better way.</span></p>
             <Button variant="outline-light" onClick={moreButton3} id="myBtn3">Read more</Button>
