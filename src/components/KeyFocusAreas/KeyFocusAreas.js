@@ -1,34 +1,44 @@
 import React from 'react';
 import './KeyFocusAreas.css';
+import bgimg from '../KeyFocusAreas/camp.jpg';
+import visionimg from '../KeyFocusAreas/vihatha1.png';
+import missionimg from '../KeyFocusAreas/vihatha2.jpg';
+import objectivesimg from '../KeyFocusAreas/vihatha3.jpg';
 
-const KeyFocusAreas= () => {
+
+const KeyFocusAreas = () => {
   return (
     <div>
       <section className="hero">
         <div className="container1">
           
-          <img src="https://img.freepik.com/premium-photo/group-indian-children-running_73899-1291.jpg?w=1060" class = "Topblockimg"alt="alternative-text"></img>
-          <h1 className="about-us-text">KEY FOCUS AREAS</h1>
+          <img src={bgimg} class = "Topblockimg"alt="alternative-text"></img>
+          <h1 className="about-us-text">KEY FOCUS AREAS OF VIHATHA</h1>
 
         </div>
-      </section>
+      </section> 
+ 
 
 <section className="section">
   <div className="container">
     <div className="vision-content">
       
       <div className="vision-text">
-        <h2>LEARNING</h2>
-        <p>
-          Vihatha is a catalyst for the creation of a society firmly rooted in the principles of excellence, mutual respect,
-          harmony, and sustainability. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi consequatur
-          blanditiis voluptatem, et amet harum est architecto unde excepturi, dolorum reprehenderit, delectus ipsam aut
-          obcaecati distinctio. Quos, neque perferendis!
-        </p>
+        <h2>LEARNING :</h2>
+        <ul>
+          <li>To establish, maintain, preserve and support integral, holistic and experiential education related activities for schools, colleges, universities and any educational institutions.</li>
+          <li>To design and conduct special experiential training programs for students from high schools, colleges and universities to provide relevant skills to become eligible for employment and good citizens.</li>
+          <li>To promote cultural and spiritual tourism rooted in Indian tradition to develop appreciation and respect for diverse societies, institutions, people and nature in India and abroad. </li>
+          <li>To establish philanthropic libraries and activity centers at community and school, college and universities.</li>
+          <li>To provide financial assistance to cover tuition fees, books, boarding expenses of students of merit to pursue education after Secondary level from rural and need in the society. </li>
+          <li>To establish, adopt, sponsor establishment of, manage and run any educational institutions (residential or otherwise) particularly for the benefit of poorer sections of the society.</li>
+          <li>To develop unique bridge courses and events to promote interdisciplinary learning and 21st century skills in primary & secondary school children through special workshops and post workshop engagements.</li>
+          <li>To professionally review ongoing engagements, research, write about integral, holistic and experiential education for schools, colleges and universities. </li>
+        </ul>
       </div>
-      <div className="image-container1">
+      <div className="vision-image">
         <img
-          src="https://nnkf.org/img/bg-img/vision.gif"
+          src={visionimg}
           className="vision-image"
           alt="Vision"
         />
@@ -41,14 +51,21 @@ const KeyFocusAreas= () => {
   <div className="container">
     <div className="mission-content">
       <div className="mission-text">
-        <h2>SUSTAINABILITY</h2>
-        <p>
-          The mission of Vihatha is to significantly improve the quality of school education, empower sustainable livelihoods and conserve nature through research, training, and collective.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, quisquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reiciendis delectus doloribus molestias ex beatae et, cupiditate repellendus, numquam corrupti nemo aliquid deserunt assumenda enim? Pariatur, nemo necessitatibus, accusamus eos eum quo rerum, dignissimos culpa voluptates incidunt voluptatem ex assumenda.
-        </p>
+        
+        <h2>SUSTAINABILITY: </h2>
+        <ul>
+          <li>To build Kitchen Garden in educational institutions, homes, community and free open spaces. </li>
+          <li>To conduct experiential workshops for all individuals in the society to happily adopt sustainable practices in life.</li>
+          <li>Research and Documentation of Indigenous/Indian Knowledge Traditions with the help of Students & professionals.</li>
+          <li>Spread indigenous/Indian Knowledge  Traditions through various media for the benefit of the society and country.</li>
+          <li>To promote and involve in plantation activities for sustainability and to mitigate climate change.</li>
+          <li>To promote sustainable livelihoods through making people aware about various schemes run by the government and other institutions in this domain.</li>
+          <li>To take-up the projects of Rural and Urban Development, especially Agriculture and Watershed programs, to create strong public opinion for environmental protection and harmony between nature and man.</li>
+          <li>To collaborate with like-minded NGOs for building greener and cleaner planet earth.</li>
+        </ul>
       </div>
       <div className="mission-image">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0_bQGrw8GM2Sm1RVu2lspgBksvrVfdK7igw&usqp=CAU" alt="Mission" />
+        <img src={missionimg} alt="Mission" />
       </div>
     </div>
   </div>
@@ -57,19 +74,18 @@ const KeyFocusAreas= () => {
   <div className="container">
     <div className="objectives-content">
       <div className="objectives-text">
-        <h2>WELL BEING</h2>
+        
+        <h2>WELL-BEING :</h2>
         <ul>
-          <li>To promote holistic and integral education in schools through school engagement programs.</li>
-          <li>To develop teachers as efficient facilitators of holistic and integral education through teacher development programs.</li>
-          <li>To support poor and disadvantaged children in overall development through scholarship programs and setting up of learning centers in slums and rural areas.</li>
-          <li>To connect children and youth with organic farming and nature through experiential learning programs.</li>
-          <li>To help children and teenagers explore health, nutrition, yoga and sports through wellness boot camps.</li>
-          <li>To strengthen educational and social organizations through research, documentation, and training.</li>
-          <li>To build collective consciousness in society on matters concerned with nature and sustainability - to build a cleaner and greener earth.</li>
+          <li>To develop a simple, deep and shared understanding about childhood and teenage with teachers and parents. </li>
+          <li>To promote the development of evolutionary culture in schools.</li>
+          <li>To conduct workshops with teachers on self-awareness and academic leadership.</li>
+          <li>To collaborate with like-minded experts and NGOs for research, workshops and informal engagement with students.</li>
+          <li>To conduct workshops for self-awareness and self-reflection in schools.</li>
         </ul>
       </div>
       <div className="objectives-image">
-        <img src="https://www.ouronlyhome.eu/wp-content/uploads/2022/03/non-governmental-organizations-1024x576.jpg" className="imgs" alt="Objectives" />
+        <img src={objectivesimg} className="imgs" alt="Objectives" />
       </div>
     </div>
   </div>
@@ -83,5 +99,6 @@ const KeyFocusAreas= () => {
     </div>
   );
 };
+
 
 export default KeyFocusAreas;

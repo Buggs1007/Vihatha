@@ -1,5 +1,10 @@
 import React from 'react';
 import './WellBeingProg.css';
+import bgimg from '../WellBeingProg/well3.jpg';
+import visionimg from '../WellBeingProg/well1.jpg';
+import missionimg from '../WellBeingProg/well2.jpg';
+import objectivesimg from '../WellBeingProg/well4.jpg';
+
 
 const WellBeingProg = () => {
   return (
@@ -7,7 +12,7 @@ const WellBeingProg = () => {
       <section className="hero">
         <div className="container1">
           
-          <img src="https://images.unsplash.com/photo-1587579484426-aa19f6878876?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class = "Topblockimg"alt="alternative-text"></img>
+          <img src={bgimg} class = "Topblockimg"alt="alternative-text"></img>
           <h1 className="about-us-text">WELLBEING BOOT CAMPS PROGRAM</h1>
 
         </div>
@@ -30,7 +35,7 @@ const WellBeingProg = () => {
       </div>
       <div className="vision-image">
         <img
-          src="https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          src={visionimg}
           className="vision-image"
           alt="Vision"
         />
@@ -62,7 +67,7 @@ const WellBeingProg = () => {
         </ul>
       </div>
       <div className="mission-image">
-        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80" alt="Mission" />
+        <img src={missionimg} alt="Mission" />
       </div>
     </div>
   </div>
@@ -94,7 +99,7 @@ const WellBeingProg = () => {
         </p> 
       </div>
       <div className="objectives-image">
-        <img src=" https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80" className="imgs" alt="Objectives" />
+        <img src={objectivesimg} className="imgs" alt="Objectives" />
       </div>
     </div>
   </div>

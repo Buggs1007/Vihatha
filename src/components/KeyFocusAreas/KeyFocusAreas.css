@@ -1,168 +1,135 @@
-/* Reset default styles */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Global styles */
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-  }
-  
+/* OurStory.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+/* Custom Styles */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.Topblockimg {
+  width: 100%;
+  height: 650px; /* Reduced height for larger screens */
+}
+
+.about-us-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+}
+
+/* Sections */
+.section {
+  padding: 40px 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+.vision-content,
+.mission-content,
+.objectives-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align:justify;
+  border: 5px solid rgb(221, 224, 251); /* Border around the text elements */
+  border-radius: 8px; /* Rounded corners for the border */
+  font-size: 18px;
+}
+
+.vision-text,
+.mission-text,
+.objectives-text {
+  flex: 1;
+  padding: 10px;
+}
+
+.vision-text h2,
+.mission-text h2,
+.objectives-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.vision-image,
+.mission-image,
+.objectives-image {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vision-image img,
+.mission-image img,
+.objectives-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.objectives-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 900px) {
   .Topblockimg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 750px;
-    border-bottom: 2px solid black;
+    height: 350px; /* Reduced height for smaller screens */
   }
-  
-  .hero {
-    position: relative;
-    height: 700px;
-    background-color: #333;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-  }
-  
+
   .about-us-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px !important;
-    font-weight: bold;
-    color: #ffffff;
+    font-size: 28px; /* Adjust font size for smaller screens */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
   }
-  
-  .container {
-    max-width: 1250px !important;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .imgs {
-    margin: 20px;
-    height: 200px;
-    width: 300px;
-  }
-  
-  .hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .vision-content {
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .vision-text {
-    flex-basis: 50%;
-    margin-right: 20px;
-  }
-  
-  .vision-image img {
-    
-    max-width: 100%;
-    height: auto;
-  }
-  
-  h2 {
-    border-bottom: 1px solid black;
-  }
-  
-  
-  .mission-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .mission-text {
-    flex-basis: 50%;
-    margin-right: 20px;
-  }
-  
-  .mission-image img {
-    flex-basis: 40%;
-    max-width: 100%;
-    height: auto;
-  }
-  
+
+  .vision-content,
+  .mission-content,
   .objectives-content {
-    display: flex;
-    align-items: center;
+    flex-direction: column;
   }
-  
-  .objectives-text {
-    flex-basis: 50%;
-  }
-  
+
+  .vision-image,
+  .mission-image,
   .objectives-image {
-    margin-left: auto;
-  }
-  
-  .objectives-image img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .section {
-    background-color: #fff;
-    padding: 50px 0;
-  }
-  
-  .section h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  ul {
-    list-style-type: disc;
-    margin-left: 20px;
-  }
-  
-  ul li {
-    font-size: 16px;
-  }
-  
-  
-  
-  .section {
-    background-color: #fff;
-    padding: 50px 0;
-  }
-  
-  .section h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .section p {
-    font-size: 16px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
     text-align: center;
+    height: 250px; /* Set the desired height for the image containers */
   }
-  
-  footer p {
-    font-size: 14px;
-  }
-  
+}

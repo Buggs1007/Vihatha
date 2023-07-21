@@ -1,5 +1,11 @@
+
+
 import React from 'react';
 import './OurStory.css';
+import visionimg from '../OurStory/story1.jpg';
+import missionimg from '../OurStory/story2.jpg';
+import objectivesimg from '../OurStory/story3.jpg';
+import bgimg from '../OurStory/backgrnd.png';
 
 const OurStory = () => {
   return (
@@ -7,7 +13,7 @@ const OurStory = () => {
       <section className="hero">
         <div className="container1">
           
-          <img src="https://img.freepik.com/premium-photo/group-indian-children-running_73899-1291.jpg?w=1060" class = "Topblockimg"alt="alternative-text"></img>
+          <img src={bgimg} class = "Topblockimg"alt="alternative-text"></img>
           <h1 className="about-us-text">OUR STORY</h1>
 
         </div>
@@ -19,7 +25,7 @@ const OurStory = () => {
     <div className="vision-content">
       
       <div className="vision-text">
-        <h2>OUR STORY</h2>
+        <h2 className='storyheading'>OUR STORY</h2>
         <p>
           The Co-founders of Vihatha - Shraddha Yamkar and Rovin Pushp have worked
           with NGOs and educational institutions in management roles. Shraddha has
@@ -39,7 +45,7 @@ const OurStory = () => {
       </div>
       <div className="vision-image">
         <img
-          src="https://images.unsplash.com/photo-1623122617524-18ca7a791c37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          src={visionimg}
           className="vision-image"
           alt="Vision"
         />
@@ -72,7 +78,7 @@ const OurStory = () => {
         </p>
       </div>
       <div className="mission-image">
-        <img src="https://images.unsplash.com/photo-1535090467336-9501f96eef89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80" alt="Mission" />
+        <img src={missionimg} alt="Mission" />
       </div>
     </div>
   </div>
@@ -104,7 +110,7 @@ const OurStory = () => {
         </p> 
       </div>
       <div className="objectives-image">
-        <img src=" https://images.unsplash.com/photo-1613399421095-41f5c68e9f8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80" className="imgs" alt="Objectives" />
+        <img src={objectivesimg} className="imgs" alt="Objectives" />
       </div>
     </div>
   </div>
@@ -121,3 +127,4 @@ const OurStory = () => {
 
 
 export default OurStory;
+
