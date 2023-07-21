@@ -6,14 +6,13 @@ nav {
 .nav-item .nav-link{
   color: rgba(156, 146, 146, 0.984);
 }
-.nav-item .nav-link:active{
-  background-color: ;
-}
 
 li{
   justify-content: space-evenly;
   display: flex;
   padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: large;
   position: relative;
 }
@@ -25,6 +24,10 @@ li{
 
 .nav-item:hover{
   text-decoration: underline rgba(156, 146, 146, 0.984);
+  opacity: 80%;
+}
+
+.nav-item::after{
   opacity: 80%;
 }
 

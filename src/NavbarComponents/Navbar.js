@@ -1,13 +1,13 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+import logo from './vihatha.PNG';
 
 const NavBar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary random">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary random">
     <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="#" alt="" width="30" height="24" class="d-inline-block align-text-top"></img>
-      VIHATHA
+      <img src={logo} alt="" width="50" height="40" class="d-inline-block align-text-top"/>
+       VIHATHA
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -43,16 +43,12 @@ const NavBar = () => {
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Collaborate</a>
+            <a class="nav-link" href="#">Blogs</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Support</a>
           </li>
         </ul>
-        {/* <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form> */}
       </div>
     </div>
   </nav>
