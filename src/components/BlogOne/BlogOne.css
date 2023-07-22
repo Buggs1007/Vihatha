@@ -1,0 +1,158 @@
+/* Global Styles */
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Custom Styles */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.Topblockimg {
+  width: 100%;
+  height: 650px;
+}
+
+h1 {
+  font-size: 36px; /* Default font size for h1 headings */
+}
+
+h2 {
+  /* text-align: center; */
+  margin-bottom: 60px;
+  border-bottom: 3px solid rgb(217, 203, 203);
+  font-size: 24px; /* Default font size for h2 headings */
+}
+
+.about-us-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+}
+
+.Intro {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.imgg1,
+.imgg2 {
+  width: 100%; /* Set the image width to 100% to fit the container */
+  max-width: 400px; /* Limit the maximum width of the images */
+  height: auto; /* Allow the images to scale proportionally */
+  margin-bottom: 20px; /* Add some spacing between images */
+}
+
+.part4 {
+  border: 2px solid black;
+}
+
+.artical {
+  /* background-color: azure; */
+  margin: 40px;
+  font-size: 22px;
+  padding: 20px; /* Add some padding to the article */
+  box-shadow: 0 0 0 3px black; /* Add box shadow instead of border */
+  overflow-y: auto; /* Allow vertical scrolling for overflowing content */
+}
+
+.articalcontent {
+  margin: 20px;
+}
+
+.meaning {
+  color: red;
+  font-weight: bold;
+}
+
+.meaningalign {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.textcenter {
+  text-align: center;
+  color: maroon;
+}
+
+.textcolor {
+    color: blue;
+}
+
+table,tr,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.table2 {
+    margin-left: 550px;
+
+}
+
+
+.IntroContentDiv {
+  display: flex; /* Use flex to place imgg1 and imgg2 side by side */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  justify-content: center; /* Center the images horizontally */
+}
+
+/* Media Queries for Responsive Design */
+
+/* For screen sizes smaller than 768px */
+@media (max-width: 768px) {
+  .Topblockimg {
+    height: 450px; /* Adjust height for smaller screens */
+  }
+
+  .about-us-text {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+
+  .imgg1,
+  .imgg2 {
+    max-width: 100%; /* Stack images vertically for smaller screens */
+    margin-bottom: 20px; /* Add some spacing between images */
+  }
+
+  .artical {
+    font-size: 18px; /* Adjust font size for smaller screens */
+    box-shadow: 0 0 0 2px black; /* Adjust box shadow for smaller screens */
+    margin: 10px;
+  }
+
+  .meaningalign {
+    margin-left: 20px; /* Adjust margins for smaller screens */
+    margin-right: 20px;
+  }
+
+  h1 {
+    font-size: 25px; /* Reduce font size of h1 for smaller screens */
+  }
+
+  h2 {
+    font-size: 15px; /* Reduce font size of h2 for smaller screens */
+  }
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
