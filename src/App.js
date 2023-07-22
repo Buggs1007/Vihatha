@@ -14,7 +14,6 @@ import MedhaswiProg from './components/MedhaswiProg/MedhaswiProg';
 // import BlogOne from './components/BlogOne/BlogOne';
 // import BlogThree from './components/BlogThree/BlogThree';
 
-
 const App = () => {
   return (
     <div>
