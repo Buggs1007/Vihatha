@@ -1,11 +1,10 @@
 import './App.css';
+import BlogFour from './BlogFour/BlogFour'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
+    <div >
+      <BlogFour/>
     </div>
   );
 }
