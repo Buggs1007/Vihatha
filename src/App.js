@@ -13,8 +13,8 @@ function App() {
       {/* <BlogFive/> */}
       {/* <BlogSix/> */}
       {/* <BharatYatra/> */}
-    <KitchenProgram/>
-    {/* <NaniProgram/> */}
+    {/* <KitchenProgram/> */}
+    <NaniProgram/>
     </div>
   );
 }
