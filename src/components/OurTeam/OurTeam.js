@@ -1,5 +1,9 @@
 import React from 'react';
 import './OurTeam.css';
+import visionimg from '../OurTeam/rovinimg.jpg';
+import missionimg from '../OurTeam/shraddhaimg.jpg';
+import objectivesimg from '../OurTeam/vihatha3.jpg';
+import bgimg from '../OurTeam/camp.jpg';
 
 const OurTeam = () => {
   return (
@@ -7,7 +11,7 @@ const OurTeam = () => {
       <section className="hero">
         <div className="container1">
           
-          <img src="https://img.freepik.com/premium-photo/group-indian-children-running_73899-1291.jpg?w=1060" class = "Topblockimg"alt="alternative-text"></img>
+          <img src={bgimg} class = "Topblockimg"alt="alternative-text"></img>
           <h1 className="about-us-text">OUR TEAM</h1>
 
         </div>
@@ -35,7 +39,7 @@ const OurTeam = () => {
       </div>
       <div className="vision-image">
         <img
-          src="https://images.unsplash.com/photo-1623122617524-18ca7a791c37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          src={visionimg}
           className="vision-image"
           alt="Vision"
         />
@@ -65,7 +69,7 @@ const OurTeam = () => {
         </p>
       </div>
       <div className="mission-image">
-        <img src="https://images.unsplash.com/photo-1535090467336-9501f96eef89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80" alt="Mission" />
+        <img src={missionimg} alt="Mission" />
       </div>
     </div>
   </div>
@@ -97,7 +101,7 @@ const OurTeam = () => {
         </p> 
       </div>
       <div className="objectives-image">
-        <img src=" https://images.unsplash.com/photo-1613399421095-41f5c68e9f8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80" className="imgs" alt="Objectives" />
+        <img src={objectivesimg} className="imgs" alt="Objectives" />
       </div>
     </div>
   </div>

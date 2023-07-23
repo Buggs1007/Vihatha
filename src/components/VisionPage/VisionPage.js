@@ -12,7 +12,7 @@ const VisionPage = () => {
         <div className="container1">
           
           <img src={bgimg} class = "Topblockimg"alt="alternative-text"></img>
-          <h1 className="about-us-text">ABOUT US</h1>
+          <h1 className="about-us-text">VISION, MISSION AND OBJECTIVES</h1>
 
         </div>
       </section> 
