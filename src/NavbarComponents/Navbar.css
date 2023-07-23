@@ -25,13 +25,7 @@ li{
   font-size: medium;
 }
 
-.nav-item:hover{
-  opacity: 75%;
-}
 
-.nav-item::after{
-  opacity: 80%;
-}
 
 .dropdown-item:active{
   background-color: #1e5a67;

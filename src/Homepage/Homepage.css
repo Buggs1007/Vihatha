@@ -296,3 +296,15 @@ body{
 h2{
   margin-bottom: 0px;
 }
+
+@media (min-width: 700px){
+  .col-md-4.mb-md-0 {
+      display: flex!important;
+      flex-direction: column;
+  }
+}
+
+.img-test{
+  width: 40%;
+  height: 40%;
+}
