@@ -3,7 +3,8 @@ import BlogFour from './BlogFour/BlogFour';
 import BlogFive from './BlogFive/BlogFive';
 import BlogSix from './BlogSix/BlogSix';
 import BharatYatra from './BharatYatra/Bharatyatra';
-import NaniProgram from './NaniProgram/NaniProgram'
+import NaniProgram from './NaniProgram/NaniProgram';
+import KitchenProgram from './KitchenProgram/KitchenProgram';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <BlogFive/> */}
       {/* <BlogSix/> */}
       {/* <BharatYatra/> */}
-    <NaniProgram/>
+    <KitchenProgram/>
+    {/* <NaniProgram/> */}
     </div>
   );
 }
