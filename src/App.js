@@ -3,6 +3,7 @@ import BlogFour from './BlogFour/BlogFour';
 import BlogFive from './BlogFive/BlogFive';
 import BlogSix from './BlogSix/BlogSix';
 import BharatYatra from './BharatYatra/Bharatyatra';
+import NaniProgram from './NaniProgram/NaniProgram'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <BlogFour/> */}
       {/* <BlogFive/> */}
       {/* <BlogSix/> */}
-      <BharatYatra/>
+      {/* <BharatYatra/> */}
+    <NaniProgram/>
     </div>
   );
 }
