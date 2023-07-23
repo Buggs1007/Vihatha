@@ -40,90 +40,72 @@ const Support = () => {
   <div className="cards-container">
     <div className="card">
       {/* Program content for card 1 */}
-      <h1> SPONSER A CHILD - 21000</h1>
+      <h1> Sponsor a child for one year - Tuition fees, books, stationary and 2 residential personality development programs- 21000</h1>
       <p>
-          Explanation of the objectives goes here...   We ensure access to proper education for every child, especially girl children, so they can pull themselves out of poverty.
-          We ensure access to good quality healthcare for each person, irrespective of their social or economic background.
-          We respond to natural disasters such as floods and cyclones by providing immediate life-saving material, access to clean water and sanitation, and help people rebuild their lives.
-          We work with communities and policy makers to help find solutions to end discrimination, so that every person can realise their rights.
-          Explanation of the objectives goes here...   We ensure access to proper education for every child, especially girl children, so they can pull themselves out of poverty.
-          We ensure access to good quality healthcare for each person, irrespective of their social or economic background.
-          We respond to natural disasters such as floods and cyclones by providing immediate life-saving material, access to clean water and sanitation, and help people rebuild their lives.
-          We work with communities and policy makers to help find solutions to end discrimination, so that every person can realise their rights.
+          Medhasvi is a scholarship program for children whose parents engage in biodiversity based organic farming. 
+          We believe that this scholarship program will help the children from farming communities to become better citizens and if they choose they can become better farmers too ! 
+          <br/> <br/>
+          Highly qualitative and comprehensive Scholarship Program
+          <br/> <br/>
+          We ensure maximum utilization of the donation made by you. We give 100 % of this 
+          amount to the children. 60 % of your donations goes for tuition fees, books and stationery for the child. The remaining 40 % is spent on residential personality development and life skill programs conducted by highly experienced institutions, technical institutes and digital platforms. 
       </p>
     </div>
     <div className="card">
       {/* Program content for card 2 */}
-      <h1> ESTABLISH A KITCHEN GARDEN IN SCHOOL</h1>
+      <h1> Establish a Kitchen garden in a School - includes all the cost of the design, development and maintenance - 20000</h1>
       <p>
-          Explanation of the objectives goes here...   We ensure access to proper education for every child, especially girl children, so they can pull themselves out of poverty.
-          We ensure access to good quality healthcare for each person, irrespective of their social or economic background.
-          We respond to natural disasters such as floods and cyclones by providing immediate life-saving material, access to clean water and sanitation, and help people rebuild their lives.
-          We work with communities and policy makers to help find solutions to end discrimination, so that every person can realise their rights.
+           This program aims to connect children with nature and help them understand the significance of farming, health, nutrition and sustainability. 
+           It is a highly practical program. The program includes both development of Kitchen Garden as well as providing academic experience.Students will get a living laboratory for environmental sciences. The kitchen garden will be safe for children as the space is nicely designed and no chemicals are used. 
+
       </p>
     </div>
     <div className="card">
       {/* Program content for card 3 */}
-      <h1> ORGANIZE NATURE IMMERSION PROGRAM - 30000</h1>
+      <h1> Organize Nature Immersion Program - includes travel, food and payment to the local artists, storytellers and guides - 30000</h1>
       <p>
-          Explanation of the objectives goes here...   We ensure access to proper education for every child, especially girl children, so they can pull themselves out of poverty.
-          We ensure access to good quality healthcare for each person, irrespective of their social or economic background.
-          We respond to natural disasters such as floods and cyclones by providing immediate life-saving material, access to clean water and sanitation, and help people rebuild their lives.
-          We work with communities and policy makers to help find solutions to end discrimination, so that every person can realise their rights.
+          NANI (Nature and Nutrition Immersion)
+          Rediscovering Nature & Nutrition through an immersive experience
+          <br/> <br/>
+          It is unique program to develop self-awareness, natural awareness and experiential understanding about nutrition. 
+          This workshop aims at providing an immersive experience in nature, know organic farming and nutrition. It will provide a robust framework to the learners to evaluate what, why and how about food.  Our facilitators have rich experience in research, training and organic farming. This program caters to diverse learning needs and provides rich experiences to the learners. We have unique sessions for Observation, Silence, Indigenous Games, Arts, Indigenous craft, Storytelling, Music, Theatre, Projects and Teamwork.
       </p>
     </div>
     <div className="card">
       {/* Program content for card 4 */}
-      <h1> SUPPORT A BHARAT ANUBHAV YATRA FOR 5 CHILDREN - 50000</h1>
+      <h1> Support for a Bharat Anubhav Yatra for 10 children, includes travel, food and stay expenses. Also, payment to local teachers and guides - 50000</h1>
       <p>
-          Explanation of the objectives goes here...   We ensure access to proper education for every child, especially girl children, so they can pull themselves out of poverty.
-          We ensure access to good quality healthcare for each person, irrespective of their social or economic background.
-          We respond to natural disasters such as floods and cyclones by providing immediate life-saving material, access to clean water and sanitation, and help people rebuild their lives.
-          We work with communities and policy makers to help find solutions to end discrimination, so that every person can realise their rights.
-          Explanation of the objectives goes here...   We ensure access to proper education for every child, especially girl children, so they can pull themselves out of poverty.
-          We ensure access to good quality healthcare for each person, irrespective of their social or economic background.
-          We respond to natural disasters such as floods and cyclones by providing immediate life-saving material, access to clean water and sanitation, and help people rebuild their lives.
-          We work with communities and policy makers to help find solutions to end discrimination, so that every person can realise their rights.
-          Explanation of the objectives goes here...   We ensure access to proper education for every child, especially girl children, so they can pull themselves out of poverty.
-          We ensure access to good quality healthcare for each person, irrespective of their social or economic background.
-          We respond to natural disasters such as floods and cyclones by providing immediate life-saving material, access to clean water and sanitation, and help people rebuild their lives.
-          We work with communities and policy makers to help find solutions to end discrimination, so that every person can realise their rights.
+          India offers diverse landscapes, impressive architecture, majestic temples, and abundant wildlife, alongside its vibrant culture and traditions. Traveling across India is a profound learning experience for all ages, teaching about shared history, nature, and sustainability.
+          <br/> <br/>
+          Vihatha's Bharat Anubhav Yatra immerses participants in India's rich culture, knowledge, and traditions. The program ensures inclusive, engaging, and immersive travel experiences, connecting with people and nature.
+          <br/> <br/>
+          By the end, participants gain self-awareness, empathy, and appreciation for India's diversity, arts, music, and spirituality, inspiring their future endeavors.
       </p>
     </div>
     <div className="card">
       {/* Program content for card 5 */}
-      <h1> PROGRAM-5</h1>
+      <h1>Support 1 SELP program for 20 children - includes 3 day food , travel, stay, industrial exposure, hands-on learning and soft skills training.</h1>
       <p>
-          Explanation of the objectives goes here...   We ensure access to proper education for every child, especially girl children, so they can pull themselves out of poverty.
-          We ensure access to good quality healthcare for each person, irrespective of their social or economic background.
-          We respond to natural disasters such as floods and cyclones by providing immediate life-saving material, access to clean water and sanitation, and help people rebuild their lives.
-          We work with communities and policy makers to help find solutions to end discrimination, so that every person can realise their rights.
-          Explanation of the objectives goes here...   We ensure access to proper education for every child, especially girl children, so they can pull themselves out of poverty.
-          We ensure access to good quality healthcare for each person, irrespective of their social or economic background.
-          We respond to natural disasters such as floods and cyclones by providing immediate life-saving material, access to clean water and sanitation, and help people rebuild their lives.
-          We work with communities and policy makers to help find solutions to end discrimination, so that every person can realise their rights.
+          We felt that exposure, training and opportunities to work in real life situations is missing in most schools and colleges of the country. 
+          Therefore, we have started the SELP for students. During this program, Vihatha provides transformative experiential learning programs for students. We collaborate with schools and colleges to join the self-learning and field-based learning as per their requirements. We are also planning to start SELP programs during summer and winter vacations. 
+
       </p>
     </div>
     <div className="card">
       {/* Program content for card 6 */}
-      <h1> PROGRAM-6</h1>
+      <h1>Support 3 day Wellbeing boot camp for 20 children  - includes food, stay, stationary, books and honorarium to facilitators. </h1>
       <p>
-          Explanation of the objectives goes here...   We ensure access to proper education for every child, especially girl children, so they can pull themselves out of poverty.
-          We ensure access to good quality healthcare for each person, irrespective of their social or economic background.
-          We respond to natural disasters such as floods and cyclones by providing immediate life-saving material, access to clean water and sanitation, and help people rebuild their lives.
-          We work with communities and policy makers to help find solutions to end discrimination, so that every person can realise their rights.
+          Our well being camps are designed to develop the natural abilities of children and teenagers. 
+          We have studied and interacted with life skills trainers, experienced psychologists, thinkers 
+          and spiritual organizations to develop a unique experiential curriculum for wellness. Even after 
+          interacting with so many experts, we have intentionally kept everything simple so that it can be practiced and experienced.
+          <br/> <br/>
+          This program contains interesting content, methods and tools to help students understand different dimensions of their personality.
       </p>
     </div>
   </div>
 </section>
-    
-     <footer>
-        <div className="container">
-          <p>&copy; 2023 Company Name. All rights reserved.</p>
-        </div>
-      </footer>
-
-      
+        
     </div>
   );
 };

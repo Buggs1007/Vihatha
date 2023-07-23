@@ -107,11 +107,6 @@ const OurTeam = () => {
   </div>
 </section>
 
-      <footer>
-        <div className="container">
-          <p>&copy; 2023 Company Name. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 };

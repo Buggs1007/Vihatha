@@ -60,7 +60,7 @@ h2 {
 
 .artical {
   /* background-color: azure; */
-  margin-top: 100px;
+  margin: 40px;
   font-size: 22px;
   padding: 20px; /* Add some padding to the article */
   box-shadow: 0 0 0 3px black; /* Add box shadow instead of border */
@@ -113,6 +113,7 @@ h2 {
   .artical {
     font-size: 18px; /* Adjust font size for smaller screens */
     box-shadow: 0 0 0 2px black; /* Adjust box shadow for smaller screens */
+    margin: 10px;
   }
 
   .meaningalign {
@@ -127,16 +128,4 @@ h2 {
   h2 {
     font-size: 15px; /* Reduce font size of h2 for smaller screens */
   }
-}
-
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-footer p {
-  font-size: 14px;
 }
