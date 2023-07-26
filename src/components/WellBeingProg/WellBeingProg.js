@@ -4,11 +4,14 @@ import bgimg from '../WellBeingProg/well3.jpg';
 import visionimg from '../WellBeingProg/well1.jpg';
 import missionimg from '../WellBeingProg/well2.jpg';
 import objectivesimg from '../WellBeingProg/well4.jpg';
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const WellBeingProg = () => {
   return (
     <div>
+    <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -104,7 +107,7 @@ const WellBeingProg = () => {
     </div>
   </div>
 </section>
-
+    <Footer/>
     </div>
   );
 };

@@ -4,11 +4,14 @@ import imgg1 from '../BlogTwo/imgg1.png';
 import imgg2 from '../BlogTwo/imgg2.png'; 
 import imgg3 from '../BlogTwo/rovinsirimg.png'; 
 import bgimage from '../BlogTwo/blogtwobg.jpg'; 
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const BlogTwo = () => {
   return (
     <div>
+        <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -753,6 +756,7 @@ worked.</li>
     </div>
 
 </div>
+<Footer/>
 
     </div>
   );

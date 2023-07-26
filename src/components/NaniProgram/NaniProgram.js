@@ -1,9 +1,12 @@
 import React from 'react';
 import './NaniProgram.css';
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 const NaniProgram = () => {
   return (
     <div>
+      <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -96,12 +99,7 @@ This workshop aims at providing an immersive experience in nature, know organic 
     </div>
   </div>
 </section>
-
-      <footer>
-        <div className="container">
-          <p>&copy; 2023 Company Name. All rights reserved.</p>
-        </div>
-      </footer>
+    <Footer/>
     </div>
   );
 };

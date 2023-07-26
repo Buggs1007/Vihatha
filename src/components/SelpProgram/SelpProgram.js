@@ -4,11 +4,14 @@ import visionimg from '../SelpProgram/selp1.jpg';
 import missionimg from '../SelpProgram/selp2.png';
 import objectivesimg from '../SelpProgram/selp3.jpg';
 import bgimg from '../SelpProgram/selpbg.jpg';
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const SelpProgram = () => {
   return (
     <div>
+      <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -105,7 +108,7 @@ const SelpProgram = () => {
     </div>
   </div>
 </section>
-
+    <Footer/>
     </div>
   );
 };

@@ -3,12 +3,14 @@ import './BlogFive.css';
 import imgg1 from '../BlogFive/1st image.jpg'; 
 import imgg2 from '../BlogFive/2nd image.jpeg'; 
 import bgimage from '../BlogFive/3rd image.jpg'; 
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const BlogFive = () => {
   return (
     <div>
- 
+        <NavBar/>
 <div className='artical'>
 
     <div className='articalcontent'>
@@ -267,13 +269,7 @@ space where they are exposed wide variety of toys, arts and crafts, games etc.
     </div>
 
 </div>
-
-
-      <footer>
-        <div className="container">
-          <p>&copy; 2023 Company Name. All rights reserved.</p>
-        </div>
-      </footer>
+<Footer/>
     </div>
   );
 };

@@ -2,12 +2,15 @@
 import React from 'react';
 import './Support.css';
 import bgimg from '../Support/support2.jpg'
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const Support = () => {
   return (
     
     <div className="collaborate-page">
+      <NavBar/>
       <div className="background-image">
          <h1 className="Collab">SUPPORT US</h1>
       </div>
@@ -105,7 +108,7 @@ const Support = () => {
     </div>
   </div>
 </section>
-        
+        <Footer/>
     </div>
   );
 };

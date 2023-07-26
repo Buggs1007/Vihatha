@@ -1,10 +1,13 @@
 import React from 'react';
 import './Bharatyatra.css';
 import imgg1 from './bharatyatra.png';
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 const BharatYatra = () => {
   return (
     <div>
+      <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -107,12 +110,7 @@ Vihatha’s Anubhav Bharat Yatra provides an immersive experience in the rich cu
     </div>
   </div>
 </section>
-
-      <footer>
-        <div className="container">
-          <p>&copy; 2023 Company Name. All rights reserved.</p>
-        </div>
-      </footer>
+<Footer/>
     </div>
   );
 };

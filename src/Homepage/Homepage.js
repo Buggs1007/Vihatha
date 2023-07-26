@@ -5,14 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Footer';
 import Testimonials from './Testimonials';
 import './Homepage.css'
-// import 'bootstrap/dist/js/bootstrap.bundle';
+import NavBar from '../NavbarComponents/Navbar';
 
 const Home= () => {
     
 
     return (
         <div classsname="home">
-            
+            <NavBar />
             <Slider1 />
             <Cards />
             <Testimonials />

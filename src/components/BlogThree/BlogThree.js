@@ -3,11 +3,14 @@ import './BlogThree.css';
 import imgg1 from '../BlogThree/blogthree1.jpg'; 
 import imgg2 from '../BlogThree/blogthree3.jpg'; 
 import bgimage from '../BlogThree/blogthree2.jpg'; 
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const BlogThree = () => {
   return (
     <div>
+      <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -104,7 +107,7 @@ const BlogThree = () => {
 </section> 
     </div>
 </div>
-
+<Footer/>
     </div>
   );
 };

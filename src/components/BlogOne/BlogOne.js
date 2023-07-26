@@ -3,14 +3,16 @@ import './BlogOne.css';
 import imgg1 from '../BlogOne/blogone1.png'; 
 import imgg2 from '../BlogOne/blogone3.png'; 
 import bgimage from '../BlogOne/blogone2.jpg'; 
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const BlogOne = () => {
   return (
     <div>
+        <NavBar/>
       <section className="hero">
         <div className="container1">
-          
           <img src={bgimage} class = "Topblockimg"alt="alternative-text"></img>
           <h1 className="about-us-text">A1/A2 MILK</h1>
 
@@ -223,7 +225,7 @@ const BlogOne = () => {
     </div>
 
 </div>
-
+<Footer/>
     </div>
   );
 };

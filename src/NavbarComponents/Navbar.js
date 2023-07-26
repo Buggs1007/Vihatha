@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from './vihatha.PNG';
+import './Navbar.css'
 
 const NavBar = () => {
   return (
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary random">
     <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <img src={logo} alt="" width="50" height="40" class="d-inline-block align-text-top"/>
        VIHATHA
     </a>
@@ -18,34 +19,44 @@ const NavBar = () => {
             <a class="nav-link" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               About Us
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Vision</a></li>
-              <li><a class="dropdown-item" href="#">Our Story </a></li>
-              <li><a class="dropdown-item" href="#">Our Team</a></li>
-              <li><a class="dropdown-item" href="#">Key Focus Areas</a></li>
+              <li><a class="dropdown-item" href="/VisionPage">Vision</a></li>
+              <li><a class="dropdown-item" href="/OurStory">Our Story </a></li>
+              <li><a class="dropdown-item" href="/OurTeam">Our Team</a></li>
+              <li><a class="dropdown-item" href="/KeyFocusAreas">Key Focus Areas</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle programs" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle programs" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Programs
             </a>
             <ul class="dropdown-menu programs-dropdown">
-              <li><a class="dropdown-item" href="#">Anubhav bharat yatra</a></li>
-              <li><a class="dropdown-item" href="#">Skill, Experience and Leadership</a></li>
-              <li><a class="dropdown-item" href="#">Medhaswi Scholarship</a></li>
-              <li><a class="dropdown-item" href="#">Wellbeing Boot camps</a></li>
-              <li><a class="dropdown-item" href="#">Kitchen Garden</a></li>
-              <li><a class="dropdown-item" href="#">Nature and Nutrition Immersion</a></li>
+              <li><a class="dropdown-item" href="BharatYatra">Anubhav bharat yatra</a></li>
+              <li><a class="dropdown-item" href="/SelpProgram">Skill, Experience and Leadership</a></li>
+              <li><a class="dropdown-item" href="/MedhaswiProg">Medhaswi Scholarship</a></li>
+              <li><a class="dropdown-item" href="/WellBeingProg">Wellbeing Boot camps</a></li>
+              <li><a class="dropdown-item" href="/KitchenProgram">Kitchen Garden</a></li>
+              <li><a class="dropdown-item" href="/NaniProgram">Nature and Nutrition Immersion</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blogs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/BlogOne">Blog 1</a></li>
+              <li><a class="dropdown-item" href="/BlogTwo">Blog 2 </a></li>
+              <li><a class="dropdown-item" href="/BlogThree">Blog 3</a></li>
+              <li><a class="dropdown-item" href="/BlogFour">Blog 4</a></li>              
+              <li><a class="dropdown-item" href="/BlogFive">Blog 5</a></li>
+              <li><a class="dropdown-item" href="/BlogSix">Blog 6</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blogs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Support</a>
+            <a class="nav-link" href="/Support">Support</a>
           </li>
         </ul>
       </div>

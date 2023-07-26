@@ -6,10 +6,13 @@ import visionimg from '../OurStory/story1.jpg';
 import missionimg from '../OurStory/story2.jpg';
 import objectivesimg from '../OurStory/story3.jpg';
 import bgimg from '../OurStory/backgrnd.png';
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 const OurStory = () => {
   return (
     <div>
+      <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -116,7 +119,7 @@ const OurStory = () => {
   </div>
 </section>
 
-      
+      <Footer/>
     </div>
   );
 };

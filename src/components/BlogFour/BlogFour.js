@@ -2,12 +2,14 @@ import React from 'react';
 import './BlogFour.css';
 import imgg1 from '../BlogFour/1st image.png'; 
 import imgg2 from '../BlogFour/honey-image.jpg'; 
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const BlogFour = () => {
   return (
     <div>
-
+      <NavBar/>
 <section className="hero">
         <div className="container1">
           
@@ -141,13 +143,7 @@ const BlogFour = () => {
     </div>
 
 </div>
-
-
-      <footer>
-        <div className="container">
-          <p>&copy; 2023 Company Name. All rights reserved.</p>
-        </div>
-      </footer>
+<Footer/>
     </div>
   );
 };

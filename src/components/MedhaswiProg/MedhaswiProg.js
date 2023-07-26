@@ -5,11 +5,14 @@ import bgimg from '../MedhaswiProg/medh3.jpg';
 import visionimg from '../MedhaswiProg/medh4.jpg';
 import missionimg from '../MedhaswiProg/medh2.jpg';
 import objectivesimg from '../MedhaswiProg/medh1.jpg';
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const MedhaswiProg = () => {
   return (
     <div>
+      <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -85,7 +88,7 @@ const MedhaswiProg = () => {
     </div>
   </div>
 </section>
-
+    <Footer/>
     </div>
   );
 };

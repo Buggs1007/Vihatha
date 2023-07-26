@@ -2,11 +2,14 @@ import React from 'react';
 import './BlogSix.css';
 import imgg1 from '../BlogSix/1st-image.png'; 
 import imgg2 from '../BlogSix/2nd image.jpg'; 
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const BlogSix = () => {
   return (
     <div>
+        <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -187,13 +190,7 @@ This school is worth visiting for understanding Aurobindo’s philosophy (Shiv K
 
     </div>
 </div>
-
-
-      <footer>
-        <div className="container">
-          <p>&copy; 2023 Company Name. All rights reserved.</p>
-        </div>
-      </footer>
+<Footer/>
     </div>
   );
 };

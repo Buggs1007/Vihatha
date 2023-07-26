@@ -4,10 +4,13 @@ import visionimg from '../OurTeam/rovinimg.jpg';
 import missionimg from '../OurTeam/shraddhaimg.jpg';
 import objectivesimg from '../OurTeam/vihatha3.jpg';
 import bgimg from '../OurTeam/camp.jpg';
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 const OurTeam = () => {
   return (
     <div>
+      <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -106,7 +109,7 @@ const OurTeam = () => {
     </div>
   </div>
 </section>
-
+    <Footer/>
     </div>
   );
 };

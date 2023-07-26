@@ -1,10 +1,13 @@
 import React from 'react';
 import './KitchenProgram.css';
 import imgg1 from './1st image.jpeg';
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 const KitchenProgram = () => {
   return (
     <div>
+      <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -87,12 +90,7 @@ const KitchenProgram = () => {
     </div>
   </div>
 </section>
-
-      <footer>
-        <div className="container">
-          <p>&copy; 2023 Company Name. All rights reserved.</p>
-        </div>
-      </footer>
+    <Footer/>
     </div>
   );
 };

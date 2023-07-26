@@ -4,10 +4,13 @@ import visionimg from '../VisionPage/vision.jpg';
 import missionimg from '../VisionPage/mission.jpg';
 import objectivesimg from '../VisionPage/objectives.jpg';
 import bgimg from '../VisionPage/backgrnd.png';
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 const VisionPage = () => {
   return (
     <div>
+      <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -77,7 +80,7 @@ const VisionPage = () => {
     </div>
   </div>
 </section>
-
+    <Footer/>
     </div>
   );
 };

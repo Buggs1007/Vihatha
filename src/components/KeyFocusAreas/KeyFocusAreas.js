@@ -4,11 +4,14 @@ import bgimg from '../KeyFocusAreas/camp.jpg';
 import visionimg from '../KeyFocusAreas/vihatha1.png';
 import missionimg from '../KeyFocusAreas/vihatha2.jpg';
 import objectivesimg from '../KeyFocusAreas/vihatha3.jpg';
+import NavBar from '../../NavbarComponents/Navbar';
+import Footer from '../../Homepage/Footer';
 
 
 const KeyFocusAreas = () => {
   return (
     <div>
+      <NavBar/>
       <section className="hero">
         <div className="container1">
           
@@ -90,7 +93,7 @@ const KeyFocusAreas = () => {
     </div>
   </div>
 </section>
-
+    <Footer/>
     </div>
   );
 };
