@@ -58,7 +58,7 @@ const BlogFour = () => {
         Historically, cows produced milk that contained only the A2 form of beta-casein. Today, most of the milk available from the grocery store contains mostly A1 proteins. 
         <br/> <br/>
         <ol>
-            <li>Oral Health
+            <li><h2>Oral Health</h2>
                 <ul>
                     <li>it is less cariogenic as compared to sugars.</li>
                     <li>It is observed that ten minutes after consumption of fruit juice tooth erosion was observed, while 30 minutes after honey ingestion the erosion was only very weak.</li>

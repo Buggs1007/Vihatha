@@ -110,12 +110,12 @@ export default function Footer() {
                 </a>
               </p> */}
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/BlogOne' className='text-reset'>
                   Blogs
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Support' className='text-reset'>
                   Support us
                 </a>
               </p>

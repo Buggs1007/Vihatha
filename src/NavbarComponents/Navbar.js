@@ -16,10 +16,10 @@ const NavBar = () => {
       <div class="collapse navbar-collapse random-2 justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/">Home</a>
+            <a class="nav-link top" aria-current="page" href="/">Home</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown top">
+            <a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false">
               About Us
             </a>
             <ul class="dropdown-menu">
@@ -29,7 +29,7 @@ const NavBar = () => {
               <li><a class="dropdown-item" href="/KeyFocusAreas">Key Focus Areas</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown top">
             <a class="nav-link dropdown-toggle programs" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Programs
             </a>
@@ -42,7 +42,7 @@ const NavBar = () => {
               <li><a class="dropdown-item" href="/NaniProgram">Nature and Nutrition Immersion</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown top">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Blogs
             </a>

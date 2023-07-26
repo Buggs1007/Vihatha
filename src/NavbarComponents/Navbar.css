@@ -9,7 +9,7 @@ nav {
   color: rgba(122, 109, 109, 0.984);
 }
 
-li{
+.nav-item{
   justify-content: space-evenly;
   display: flex;
   padding: 5px;
@@ -17,6 +17,13 @@ li{
   padding-right: 10px;
   font-size: large;
   position: relative;
+}
+
+li{
+  font-size: large;
+  position: relative;
+  display: flex;
+  padding: 5px;
 }
 
 .dropdown-item{
